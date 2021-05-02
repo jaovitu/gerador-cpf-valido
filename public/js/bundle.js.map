@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://gerador-cpf-valido/./src/main.js"],"names":["newObj","nome","console","log"],"mappings":"4VAAA,IACMA,E,+VAAS,CAAH,GADA,CAAEC,KAAM,UAGpBC,QAAQC,IAAIH,I","file":"bundle.js","sourcesContent":["const obj = { nome: \"Teste\" };\r\nconst newObj = { ...obj };\r\n\r\nconsole.log(newObj);\r\n"],"sourceRoot":""}
