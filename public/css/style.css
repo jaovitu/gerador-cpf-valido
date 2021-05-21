@@ -50,3 +50,7 @@ body {
 .generate:hover {
     background-color: rgb(49, 122, 124);
 }
+
+.generate:active {
+    opacity: 80%;
+}
