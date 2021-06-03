@@ -28,12 +28,54 @@ body {
     justify-content: center;
 }
 
+.cpf-container {
+    margin-bottom: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .cpf {
     color: rgb(140, 230, 140);
     font-size: 2.5em;
     font-weight: bold;
-    margin-bottom: 50px;
 }
+
+.copy-info {
+    background-color: cadetblue;
+    border-radius: 20px;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 0.8em;
+    font-weight: bold;
+    height: 20px;
+    padding: 8px;
+    position: relative;
+    top: -10px;
+    visibility: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-end;
+}
+
+.copy-icon {
+    color: rgb(100, 100, 100);
+    cursor: pointer;
+    font-size: 2em;
+    padding: 0 10px;
+}
+
+.copy-icon:hover {
+    color: rgb(68, 68, 68);
+}
+
+.copy-icon:active {
+    color: rgb(161, 161, 161);;
+}
+
 
 .generate {
     background-color: cadetblue;
