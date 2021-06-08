@@ -29,8 +29,8 @@ function copyButtonConfig() {
     copyButton.addEventListener("mouseover", event => {
         copyInfoCard.textContent = "Clique para copiar";
         copyInfoCard.style.backgroundColor = "cadetblue";
-        copyInfoCard.style.visibility = "visible";
         copyInfoCard.style.marginRight = "131px";
+        copyInfoCard.style.visibility = "visible";
     });
 
     copyButton.addEventListener("mouseleave", event => {
