@@ -43,9 +43,7 @@ body {
 }
 
 .copy-info {
-    background-color: cadetblue;
     border-radius: 20px;
-    box-sizing: border-box;
     color: #fff;
     font-size: 0.8em;
     font-weight: bold;
@@ -53,7 +51,6 @@ body {
     padding: 8px;
     position: relative;
     top: -10px;
-    visibility: hidden;
 
     display: flex;
     justify-content: center;

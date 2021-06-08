@@ -21,20 +21,20 @@ function copyButtonConfig() {
 
         document.body.removeChild(textInput);
 
-        copyInfoCard.style.marginRight = "158.5px";
+        copyInfoCard.style.marginRight = "157.5px";
         copyInfoCard.style.backgroundColor = "rgb(140, 230, 140)";
         copyInfoCard.textContent = "Copiado!";
     });
 
     copyButton.addEventListener("mouseover", event => {
         copyInfoCard.textContent = "Clique para copiar";
+        copyInfoCard.style.backgroundColor = "cadetblue";
         copyInfoCard.style.visibility = "visible";
-        copyInfoCard.style.marginRight = "132px";
+        copyInfoCard.style.marginRight = "131px";
     });
 
     copyButton.addEventListener("mouseleave", event => {
         copyInfoCard.style.visibility = "hidden";
-        copyInfoCard.style.backgroundColor = "cadetblue";
     })
 }
 
